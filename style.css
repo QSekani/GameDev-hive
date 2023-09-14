@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:linear-gradient(rgba(25,20,29,0.9), rgba(25, 20, 29, 10)),
+    url("./Header-img/Header.jpg") center/cover fixed no-repeat;
+    height: 80vh;
+    background-position: 80.5% 45.5%;        
+}
+
+.gradient-one img {
+    height: 99vh;
+    width: 110vw;
+    background-size: cover;
+    left: -0.9rem;
+    position: absolute;
+    top: -.1rem;
+    padding: -.2rem;
+    opacity: 0.2rem;
+    box-sizing: border-box;
+}
+
+ 
+.logo img{
+    height: 3.5rem;
+    object-position: center;
+    position: relative;
+    background-position: 40% 50%;
+    left: 5%;
+    padding-top: 15px;
+
+}
+
+.circle img{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    right: 95%;
+    top: -90px;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    color: rgba(255, 255, 255, 1);
+    list-style-type: none;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+   
+}
+
+ .home-1{ 
+  border-bottom:2px solid #a028bb; 
+  width: 5%;
+  padding: 3px;
+  text-align: center;
+  transform: skew(-50deg);
+  display: flex;
+ }
+
+ .home-1 span{
+    transform: skew(50deg);
+    display: flex;
+ }
+
+ .about{
+    color: #4c4950;
+ }
+
+ .member {
+     color: #4c4950;
+ }
+
+ .join{
+    color: #a028bb;
+    font-family: 'Times New Roman', Times, serif;
+    right: 7rem;
+    position: relative;
+    left: .55rem;
+
+ }
+
+ .join span{
+   outline: .1px solid #4c4950;
+   padding: 8px;  
+   padding-left: 25px;
+   padding-right: 25px;
+
+ }
+
+
+ .gamedev-img{
+    width: 2rem;
+    position: relative;
+    display: flex;
+    left: 25%;
+    padding-top: 5rem;
+    transform: skew(20deg);
+ }
+
+ .gamedev-img span{
+display: flex;
+position: absolute;
+height: 80%;
+width: 9rem;
+padding-top: 4rem;
+background-position: 70% 90%;
+transform: skew(-30deg);
+}
+
+.header-text{
+    display: flex;
+    text-align: center;    
+}
+
+.hive-text{
+    position: relative;
+    width: 16rem;
+    padding-top: 11rem;
+    height: 7.5rem;
+    left: 3rem;
+}
+  
+.hive-text h2{
+    color: #807f81;
+    text-transform: uppercase;
+    height: 20vh;
+    width: 35rem;
+    justify-content: center;
+    left: 18rem;
+    padding-top: 2.5rem;
+    position: absolute;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.under-text{
+    width: 30rem;
+    height: 10vh;
+    padding-top: 9px;
+    position: relative;
+    left: 4.5rem;
+}
+
+.under-text p{
+padding-top: 16rem;
+width: 29rem;
+position: absolute;
+color: #989899;
+font-weight: bold;
+font-size: small;
+left: 4.5rem;
+}
+
+.under-text p span{
+    color: #a028bb;
+}
+
+
+main{
+    background: linear-gradient(rgba(4, 1, 15, 10),rgba(4, 1, 15, 10));
+    height: 80vh;
+    
+    
+
+}
+
+.blend{
+    position: relative;
+    height: 40vh;
+    width: 20vw;
+    left: 98%;
+    top: 10px
+}
+.blend img {
+    height: 40vh;
+    width: 18vw;
+    right: 19%;
+    top: -100px;
+    position: relative;
+}
+   
+.gradient{
+    height: 20vh;
+    position: relative;
+    width: 99vw;
+    left: .3rem;
+    bottom: 13rem;   
+   
+}
+
+.gradient img{
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    right: .1rem;
+    position: absolute;
+    bottom: 60px; 
+    background-repeat: repeat;
+    opacity: 0.7;
+}
+
+.side-img1{
+    height: 50vh;
+   top: 0.4rem;
+   position: relative;
+}
+
+.side-img1 img{
+   height: 70vh;
+   bottom: 28.5rem;
+   position: absolute;
+   right: 26.7%;
+}
+
+.side-img2 {
+    height: 40vh;
+    position: relative;
+    top: 0.5rem;
+
+}
+
+.side-img2 img {
+    height: 85vh;
+    bottom: 38.5rem;
+    position: absolute;
+    right: .50rem;
+}
+
+.side-img3 {
+    height: 50vh;
+    top: 0.3rem;
+    position: relative;
+}
+
+.side-img3 img {
+    height: 70vh;
+    bottom: 63.5rem;
+    position: absolute;
+    right: 14.6%;
+}
+
+.blend-2 {
+    height: 40vh;
+    position: relative;
+    left: 32.5rem;
+
+    
+}
+
+.blend-2 img {
+    height: 60vh;
+    position: absolute;
+    bottom: 66rem;
+    right: 15.5rem;
+   
+}
+
+.blend-3 {
+    height: 40vh;
+    position: relative;
+    left: 3rem;
+    top: .4rem;
+
+
+}
+
+.blend-3 img {
+    height: 35vh;
+    width: 25vw;
+    position: absolute;
+    bottom: 110rem;
+    right: 83.5rem;
+
+}
+
+.blend-4 {
+    height: 40vh;
+    position: relative;
+    left: 3rem;
+    top: .5rem;
+
+
+}
+
+.blend-4 img {
+    height: 38vh;
+    width: 25vw;
+    position: absolute;
+    bottom: 100rem;
+    right: 75.5rem;
+
+}
+
+.about-gamedev{
+    height: 20vh;
+    position: relative;
+    left: .5rem;
+}
+
+.about-gamedev h2{
+    width: 15vw;
+    position: absolute;
+    bottom: 24rem;
+    display: flex;
+    right: 65.2rem;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a028bb;
+
+}
+
+.about-gamedev p{
+    width: 27vw;
+    color: #4c4950;
+    bottom: 15rem;
+    position: relative;
+    left: 6.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: bolder;
+
+}
+
+.mission {
+    height: 20vh;
+    position: relative;
+    left: .5rem;
+}
+
+.mission h2 {
+    width: 15vw;
+    position: absolute;
+    bottom: 18.5rem;
+    display: flex;
+    left: 6.2rem;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a028bb;
+    text-transform: capitalize;
+
+}
+
+.mission p{
+    width: 24vw;
+    color: #4c4950;
+    bottom: 9.5rem;
+    position: relative;
+    left: 6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.partner {
+    height: 40vh;
+    width: 100vw;
+    background: rgba(3, 1, 12, 10);
+    bottom: 109rem;
+    position: relative;
+    border-bottom: 1px solid #a028bb;
+}
+
+.partnership h3{
+    color: #a028bb;
+    width: 100vw;
+    top: 3rem;
+    left: 2rem;
+    position: relative;
+    
+}
+
+.partnership p{
+    color: #4c4950;
+    width: 25vw;
+    top: 4.5rem;
+    position: relative;
+    left: 2rem;
+}
+
+ .learn{
+    color: #4c4950;
+    top: 7rem;
+    left: 2rem;
+    position: relative;
+    font-family: cursive;
+}
+
+.learn span{
+   outline: .2px solid #4c4950;
+   padding: 6px;
+   padding-left: 27px;
+   padding-right: 27px;
+}
+
+.partner-box1 img{
+    height: 20vh;
+    width: 12vw;
+    left: 45rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.partner-box1 p{
+    color: #4c4950;
+    left: 47rem;
+    bottom: 1.8rem;
+    position: relative;
+    font-family: cursive;
+}
+
+.partner-box2 img {
+    height: 20vh;
+    width: 12vw;
+    left: 55.4rem;
+    position: relative;
+    bottom: 11.4rem;
+}
+
+.partner-box2 p {
+    color: #4c4950;
+    left: 57rem;
+    bottom: 11rem;
+    position: relative;
+    font-family: cursive;
+}
+
+.partner-box3 img {
+    height: 20vh;
+    width: 12vw;
+    left: 65.7rem;
+    position: relative;
+    bottom: 20.8rem;
+}
+
+.partner-box3 p {
+    color: #4c4950;
+    left: 68rem;
+    bottom: 20.5rem;
+    position: relative;
+    font-family: cursive;
+}
+
+.foot-end{
+    height: 80vh;
+    background: rgba(4,1,15,10);
+    box-sizing: border-box;
+}
+
+.footer-write h2{
+    color: #f0f0f0;
+    height: 10vh;
+    top: 18rem;
+    left: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    position: relative;
+}
+
+.footer-write p{
+    color: #4c4950;
+    height: 10vh;
+    width: 19vw;
+    position: relative;
+    top: 18rem;
+    left: 3rem;
+}
+
+.first-roll ul{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4c4950;
+    list-style-type: none;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+   position: relative;
+   right: 5rem;
+   top: 10rem;
+}
+
+.second-roll ul{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f0f0f0;
+    list-style-type: none;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+    position: relative;
+    right: 16.1rem;
+    top: 12rem;
+   }
+
+   .third-roll ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f0f0f0;
+    list-style-type: none;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+    position: relative;
+    right: 13.1rem;
+    top: 13.6rem;
+  }
+  
+  .fourth-roll ul{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f0f0f0;
+    list-style-type: none;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+    position: relative;
+    right: 13rem;
+    top: 14.9rem;
+  }
+
+  .missions span{
+    right: 1.rem;
+    position: relative;
+
+  }
+
+  .partners span{
+    right: 2.6rem;
+    position: relative;
+
+  }
+
+  .privacy span{
+    left: .5rem;
+    position: relative;
+  }
+
+  .help span{
+    right: 3.3rem;
+    position: relative;
+  }
+
+
+
+  
+
+
+
+
+
